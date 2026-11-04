@@ -1,0 +1,5 @@
+# username,group,is_sudo
+dev_alice,developers,true
+dev_bob,developers,false
+qa_carol,testers,false
+ops_dave,sysadmin,true

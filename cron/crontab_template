@@ -1,0 +1,15 @@
+# Linux Administration & Automation Toolkit - Crontab Schedule
+# Path: /etc/cron.d/admin-toolkit or user crontab
+# Format: Minute Hour DayOfMonth Month DayOfWeek Command
+
+# 1. Run Automated Log Cleanup every Sunday at 02:00 AM
+0 2 * * 0 /opt/linux-toolkit/scripts/log_cleanup.sh --days 14 >> /var/log/admin-toolkit-cleanup.log 2>&1
+
+# 2. Run Daily Incremental System Backup every night at 03:00 AM
+0 3 * * * /opt/linux-toolkit/scripts/backup_manager.sh >> /var/log/admin-toolkit-backup.log 2>&1
+
+# 3. Run System Permissions & Security Audit every Monday at 04:00 AM
+0 4 * * 1 /opt/linux-toolkit/scripts/set_permissions.sh --audit >> /var/log/admin-toolkit-audit.log 2>&1
+
+# 4. Run System Health Check every 6 hours
+0 */6 * * * /opt/linux-toolkit/scripts/system_health_check.sh >> /var/log/admin-toolkit-health.log 2>&1
