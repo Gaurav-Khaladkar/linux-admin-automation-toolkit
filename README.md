@@ -5,6 +5,7 @@
 [![Cron](https://img.shields.io/badge/Scheduler-Cron%20%7C%20Crond-blue)](https://man7.org/linux/man-pages/man5/crontab.5.html)
 [![Security](https://img.shields.io/badge/Compliance-CIS%20Hardening-red)](https://www.cisecurity.org/cis-benchmarks)
 [![Integrity](https://img.shields.io/badge/Hashing-SHA--256-brightgreen)](https://en.wikipedia.org/wiki/SHA-2)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An enterprise-ready suite of modular Bash automation scripts engineered to standardize, harden, and automate day-to-day Linux systems engineering operations. The toolkit encompasses automated user and group lifecycle provisioning, security permission auditing and hardening, automated log rotation with systemd journal vacuuming, and scheduled disaster-recovery backups featuring cryptographic SHA-256 integrity validation.
 
@@ -28,6 +29,7 @@ Engineered with cross-distribution parity, fully tested and certified across **U
 - [Disaster Recovery & Restore Runbook](#disaster-recovery--restore-runbook)
 - [Testing & Quality Assurance](#testing--quality-assurance)
 - [Security & Compliance Standards](#security--compliance-standards)
+- [License](#license)
 
 ---
 
@@ -367,3 +369,10 @@ The implementations in this repository follow industry guidelines:
 - **CIS Linux Benchmark 1.1**: Strict file permissions on critical system auth files.
 - **CIS Linux Benchmark 5.2**: Password aging and temporary credential reset.
 - **NIST SP 800-88**: Secure data handling and archival before account removal.
+
+---
+
+## License
+
+This project is licensed under the terms of the [MIT License](LICENSE). Copyright &copy; 2026 Rudrali Solapure.
+
