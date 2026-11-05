@@ -374,5 +374,6 @@ The implementations in this repository follow industry guidelines:
 
 ## License
 
-This project is licensed under the terms of the [MIT License](LICENSE). Copyright &copy; 2026 Rudrali Solapure.
+This project is licensed under the terms of the [MIT License](LICENSE). Copyright &copy; 2026 Gaurav Khaladkar.
+
 
